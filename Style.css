@@ -1,0 +1,107 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #ccc;
+}
+
+.mainHeader{
+    background-image: url(../ProjetoSite1/imagens/bg-2.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+    border-bottom: 5px solid black;
+}
+
+.mainDiv{
+    width: 80%;
+    text-align: center;
+    color: white;
+    margin: 100px auto;
+}
+
+.mainDiv h1{
+    font-size: 50px;
+    text-shadow: black 3px 3px 3px;
+    margin-bottom: 5px;
+}
+
+.mainDiv p{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    display: inline-block;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+}
+
+.mainHeader nav ul{
+    margin: 20px 50px 0 0;
+    text-align: right;
+}
+
+.mainHeader nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.mainHeader nav a{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 12px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    margin: 4px;
+}
+
+.mainHeader nav a:hover{
+   background-color: rgba(0, 0, 0, 0.4); 
+   border: 3px solid white;
+   margin: 3px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+article{
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 12px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+article h2{
+    background-color: #e0e0e0;
+    border-bottom: 3px solid #ccc;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+.botao{
+    background-color: #ccccccad;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: auto;
+    width: fit-content;
+    display: block;
+}
+
+.botao:hover{
+    background-color: #cccccc6b;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    text-shadow: 2px 1px black;
+    text-align: center;
+    padding: 25px;
+    letter-spacing: 2px;
+}
